@@ -33,7 +33,7 @@ This software is using Microsoft MFC technology for Graphic User interface.  Pro
 - ShipDesign
 
 FleetOptimizer is a desktop Windows application.
-New Cloud version is in development now. It will be based on Microservices architecture, and will be multiplatform, as will work in Kubernetes in any of available Cloud platforms as Azure, AWS, GCP.
+New Cloud version is in development now. It will be based on Microservices architecture, will be multiplatform, and will work in Kubernetes on any of available Cloud platforms as Azure, AWS, GCP.
 But suppose that we will continue to work also on this legacy desktop application - FleetOptimizer.
 
 Ideas from following Fundamental ShipDesign Theory Works were used in FleetOptimizer's ShipDesign module.
