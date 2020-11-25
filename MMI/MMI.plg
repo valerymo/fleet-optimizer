@@ -1,0 +1,202 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MMI - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/MMI.res" /d "NDEBUG" /d "_AFXDLL" "E:\Users\mv\FleetOptimizer\MMI\MMI.rc"" 
+Creating temporary file "E:\DOCUME~1\valery\LOCALS~1\Temp\RSP457.tmp" with contents
+[
+/nologo /MD /W4 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/MMI.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Users\mv\FleetOptimizer\MMI\EditGrid.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\EditWnd.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\font.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\InvestDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\LogsDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\MainDetailsPPage3.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\MMI.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\msflexgrid.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\OptimizSettingsDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\picture.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortDetailsPSheet.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortDialog.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortDialog1.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortDistMatrixPPage.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortLandStructInfo.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortLandStructPPage.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortMainDetailsPPage.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortMainInfo.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PortWizardDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PrototypeWizardACVDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\PrototypeWizardShipDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\rowcursor.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ShipMainInfo.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ShipTypeMainPPage.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ShipTypeOptimizParamPPage.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ShipTypePropertySheet.cpp"
+"E:\Users\mv\FleetOptimizer\MMI\ShipTypeWizardDlg.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\valery\LOCALS~1\Temp\RSP457.tmp" 
+Creating temporary file "E:\DOCUME~1\valery\LOCALS~1\Temp\RSP458.tmp" with contents
+[
+/nologo /MD /W4 /GX /Od /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/MMI.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Users\mv\FleetOptimizer\MMI\StdAfx.cpp"
+]
+Creating command line "cl.exe @E:\DOCUME~1\valery\LOCALS~1\Temp\RSP458.tmp" 
+Creating temporary file "E:\DOCUME~1\valery\LOCALS~1\Temp\RSP459.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Release/MMI.pdb" /debug /machine:I386 /def:".\MMI.def" /out:"../FleetOptimizer/Release/MMI.dll" /implib:"../FleetOptimizer/Release_Libraries/MMI.lib" 
+.\Release\EditGrid.obj
+.\Release\EditWnd.obj
+.\Release\font.obj
+.\Release\InvestDlg.obj
+.\Release\LogsDlg.obj
+.\Release\MainDetailsPPage3.obj
+.\Release\MMI.obj
+.\Release\msflexgrid.obj
+.\Release\OptimizSettingsDlg.obj
+.\Release\picture.obj
+.\Release\PortDetailsPSheet.obj
+.\Release\PortDialog.obj
+.\Release\PortDialog1.obj
+.\Release\PortDistMatrixPPage.obj
+.\Release\PortLandStructInfo.obj
+.\Release\PortLandStructPPage.obj
+.\Release\PortMainDetailsPPage.obj
+.\Release\PortMainInfo.obj
+.\Release\PortWizardDlg.obj
+.\Release\PrototypeWizardACVDlg.obj
+.\Release\PrototypeWizardShipDlg.obj
+.\Release\rowcursor.obj
+.\Release\ScenarioWizardDlg.obj
+.\Release\ShipMainInfo.obj
+.\Release\ShipTypeMainPPage.obj
+.\Release\ShipTypeOptimizParamPPage.obj
+.\Release\ShipTypePropertySheet.obj
+.\Release\ShipTypeWizardDlg.obj
+.\Release\StdAfx.obj
+.\Release\MMI.res
+]
+Creating command line "link.exe @E:\DOCUME~1\valery\LOCALS~1\Temp\RSP459.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+EditGrid.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+EditWnd.cpp
+font.cpp
+InvestDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+LogsDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+MainDetailsPPage3.cpp
+MMI.cpp
+msflexgrid.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+OptimizSettingsDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+picture.cpp
+PortDetailsPSheet.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+PortDialog.cpp
+PortDialog1.cpp
+PortDistMatrixPPage.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+PortLandStructInfo.cpp
+PortLandStructPPage.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+PortMainDetailsPPage.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+PortMainInfo.cpp
+PortWizardDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+PrototypeWizardACVDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+Generating Code...
+Compiling...
+PrototypeWizardShipDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+rowcursor.cpp
+ScenarioWizardDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(177) : warning C4100: 'lParam' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(177) : warning C4100: 'wParam' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(189) : warning C4100: 'lParam' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(189) : warning C4100: 'wParam' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(584) : warning C4130: '==' : logical operation on address of string constant
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(999) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1002) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1005) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1008) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1011) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1014) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1016) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1018) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1021) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1023) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1025) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1028) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1030) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1084) : warning C4130: '!=' : logical operation on address of string constant
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1123) : warning C4018: '>' : signed/unsigned mismatch
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1534) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1537) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1540) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1543) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1546) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1549) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1551) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1553) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1556) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1558) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1560) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1563) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+E:\Users\mv\FleetOptimizer\MMI\ScenarioWizardDlg.cpp(1641) : warning C4100: 'pWnd' : unreferenced formal parameter
+ShipMainInfo.cpp
+ShipTypeMainPPage.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ShipTypeMainPPage.cpp(156) : warning C4101: 'decimal' : unreferenced local variable
+E:\Users\mv\FleetOptimizer\MMI\ShipTypeMainPPage.cpp(156) : warning C4101: 'sign' : unreferenced local variable
+ShipTypeOptimizParamPPage.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\ShipTypeOptimizParamPPage.cpp(115) : warning C4101: 'CheckState' : unreferenced local variable
+ShipTypePropertySheet.cpp
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\..\FleetOptimizer\..\FleetOptimizer\..\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+ShipTypeWizardDlg.cpp
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(36) : warning C4100: 'pContext' : unreferenced formal parameter
+E:\Users\mv\FleetOptimizer\MMI\msflexgrid.h(32) : warning C4100: 'lpszClassName' : unreferenced formal parameter
+Generating Code...
+Linking...
+   Creating library ../FleetOptimizer/Release_Libraries/MMI.lib and object ../FleetOptimizer/Release_Libraries/MMI.exp
+LINK : fatal error LNK1104: cannot open file "../FleetOptimizer/Release_Libraries/MMI.lib"
+LINK : fatal error LNK1141: failure during build of exports file
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+MMI.dll - 2 error(s), 70 warning(s)
+</pre>
+</body>
+</html>

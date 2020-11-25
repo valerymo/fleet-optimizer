@@ -1,0 +1,543 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\FleetOptimizer.ico"
+
+IDR_FLEETOTYPE          ICON                    "res\\FleetOptimizerDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUILD_SCENARIO_SCENARIOWIZARD
+    BUTTON      ID_BUILD_SCENARIOWIZARD_SCENARIODLOAD
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_RUN_OPTIMIZER
+    BUTTON      ID_RUN_OPTIMIZER_SELECTED
+    BUTTON      ID_VIEW_LOGS_DLG
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENUEX
+BEGIN
+    POPUP "&File",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Create Scenario...\tCtrl+N",  ID_FILE_NEW_SCENARIO,MFT_STRING,MFS_ENABLED
+        MENUITEM "Open Svenario...\tCtrl+O",    ID_FILE_OPEN,MFT_STRING,MFS_ENABLED
+        MENUITEM "Save\tCtrl+S",                ID_FILE_SAVE,MFT_STRING,MFS_GRAYED
+        MENUITEM "Save As",                     ID_FILE_SAVE_AS,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Print Report...\tCtrl+P",     ID_FILE_PRINT,MFT_STRING,MFS_GRAYED
+        MENUITEM "View Report",                 ID_FILE_PRINT_PREVIEW,MFT_STRING,MFS_GRAYED
+        MENUITEM "Page parameters...",          ID_FILE_PRINT_SETUP,MFT_STRING,MFS_GRAYED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Resent Scenarios",            ID_FILE_MRU_FILE1,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Exit",                        ID_APP_EXIT,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Edit",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Cancel\tCtrl+Z",              ID_EDIT_UNDO,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Cut\tCtrl+X",                 ID_EDIT_CUT,MFT_STRING,MFS_ENABLED
+        MENUITEM "Copy\tCtrl+C",                ID_EDIT_COPY,MFT_STRING,MFS_ENABLED
+        MENUITEM "Insert\tCtrl+V",              ID_EDIT_PASTE,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&View",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "&Tool Bar",                   ID_VIEW_TOOLBAR,MFT_STRING,MFS_ENABLED
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR,MFT_STRING,MFS_ENABLED
+        POPUP "&Results and Logs",              65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "?????? ???????????",          ID_VIEW_LOGS_DLG,MFT_STRING,MFS_ENABLED
+            MENUITEM MFT_SEPARATOR
+            MENUITEM "????",                        ID_VIEW_LOGS_SHIPS,MFT_STRING,MFS_ENABLED
+            MENUITEM "???????? ??????",             ID_VIEW_LOGS_INITDATA,MFT_STRING,MFS_ENABLED
+            MENUITEM "?????? ? ?????????",          ID_VIEW_LOGS_ERRORS,MFT_STRING,MFS_ENABLED
+            MENUITEM "????????? ????",              ID_VIEW_LOGS_INITBASEPLAN,MFT_STRING,MFS_ENABLED
+            MENUITEM "1 - ???? ???????????",        ID_VIEW_LOGS_1OPTIMSTEP,MFT_STRING,MFS_ENABLED
+            MENUITEM "2 - ???? ???????????",        ID_VIEW_LOGS_2OPTIMSTEP,MFT_STRING,MFS_ENABLED
+            MENUITEM "3 - ???? ???????????",        ID_VIEW_LOGS_3OPTIMSTEP,MFT_STRING,MFS_ENABLED
+        END
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "St&art Dialog",               ID_VIEW_EASYSTART_DLG,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Optimization",                  65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Run Full Optimization - All stages", ID_RUN_OPTIMIZER,MFT_STRING,MFS_ENABLED
+        MENUITEM "Run selected/configured stages", ID_RUN_OPTIMIZER_SELECTED,MFT_STRING,MFS_ENABLED
+        POPUP "Run stages separately /consiquently", 65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "0-Create Initial Baseline Plan", ID_CREATE_INITIAL_BASE_PLAN,MFT_STRING,MFS_ENABLED
+            MENUITEM "1st method of optimization. Routes: shutle/pendulum", ID_OPTIMIZATION_ST1LP,MFT_STRING,MFS_ENABLED
+            MENUITEM "2nd method of optimization. Routes: line lists", ID_OPTIMIZATION_ST2LPDP,MFT_STRING,MFS_ENABLED
+            MENUITEM "3rd optimization method. Routes: lists of port-points", ID_OPTIMIZATION_ST3DP,MFT_STRING,MFS_ENABLED
+        END
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "Configuration. Selection of stages ...", ID_RUN_OPTIMIZER_SETTINGS,MFT_STRING,MFS_ENABLED
+    END
+    POPUP "&Scenario",                      65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "S&cenario Wizard...",         ID_BUILD_SCENARIO_SCENARIOWIZARD,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&Ship Wizard...",             ID_BUILD_SHIPWIZARD,MFT_STRING,MFS_ENABLED
+        POPUP "&Prototypes",                    65535,MFT_STRING,MFS_ENABLED
+        BEGIN
+            MENUITEM "Ships",                       BUILD_SHIP_PROTO_SHIP,MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+            MENUITEM "Hovercrafts (ACV)",           BUILD_SHIP_PROTO_ACV,MFT_STRING,MFS_ENABLED
+        END
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&Ports Wizard...",            ID_BUILD_PORTWIZARD,MFT_STRING,MFS_ENABLED
+        MENUITEM "&Maps...",                    ID_BUILD_PORT_MAPSHOW,MFT_STRING,MFS_GRAYED
+    END
+    POPUP "&Help",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Help: Content",               ID_HELP_FINDER,MFT_STRING,MFS_ENABLED
+        MENUITEM MFT_SEPARATOR
+        MENUITEM "&About FleetOptimizer...",    ID_APP_ABOUT,MFT_STRING,MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About FleetOptimizer"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "FleetOptimizer Version 2.2",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001-2020",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PROCESS_DLG DIALOG 0, 0, 229, 47
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Process"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,173,22,50,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,6,22,162,14
+    LTEXT           "Static",IDC_STATIC,6,6,217,12
+END
+
+IDD_EASYSTART_DIALOG DIALOGEX 100, 50, 182, 206
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FleetOptimizer - Start Dialog"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Create Scenario",IDC_ES_CREATE_SCENARIO_BUTTON,7,7,76,30
+    PUSHBUTTON      "Load Scenario",IDC_ES_LOAD_SCENARIO_BUTTON,7,39,76,16
+    PUSHBUTTON      "Optimization",IDC_ES_RUN_OPTIMIZ_BUTTON,7,63,76,30,BS_CENTER
+    PUSHBUTTON      "Calculation results",IDC_ES_SHOW_RESULTS_BUTTON,7,101,76,30,BS_MULTILINE
+    PUSHBUTTON      "Help",IDC_ES_HELP_BUTTON,7,139,76,30,BS_MULTILINE
+    CONTROL         "Show current dialog at start time",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,7,173,154,8
+    LTEXT           "Scenario creation. Define Ships, Ports, Cargoes",IDC_STATIC,92,14,83,21
+    LTEXT           "Load existing Scenario from file-system",IDC_STATIC,92,38,82,23
+    LTEXT           "Start Optimization for loaded Scenario",IDC_STATIC,92,67,82,25
+    LTEXT           "Results of Opimization calculations and Log files",IDC_STATIC,92,105,76,25
+    LTEXT           "Help - how to start",IDC_STATIC,92,149,81,16
+    DEFPUSHBUTTON   "Close",IDCLOSE,130,185,45,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "FleetOptimizer MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "FleetOptimizer"
+            VALUE "LegalCopyright", "Copyright (C) 2001"
+            VALUE "OriginalFilename", "FleetOptimizer.EXE"
+            VALUE "ProductName", "FleetOptimizer Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROCESS_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 223
+        VERTGUIDE, 6
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_EASYSTART_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_EASYSTART_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "FleetOptimizer\n\nFleetO\n\n\nFleetOptimizer.Document\nFleetO Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "FleetOptimizer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RUN_OPTIMIZER_SELECTED 
+                            "Run optimization - Selected stages\nRun optimization - Selected stages"
+    ID_INDICATOR_SCENARIO_LOADED "  "
+    ID_BUILD_SCENARIOWIZARD_SCENARIODLOAD "Open Scenario\nOpen Scenario"
+    ID_FILE_NEW_SCENARIO    "Create New Scenario\nCreate New Scenario"
+    ID_VIEW_LOGS_DLG        "Optimization results and Logs Dialog\nOptimization results and Logs Dialog"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new Scenario\nNew Scenario"
+    ID_FILE_OPEN            "Open Existing Scenario\nOpen Existing Scenario"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save active document\nSave active document"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print Report\nPrint Report"
+    ID_FILE_PRINT_PREVIEW   "Print Report Preview\nPrint Report Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Exit the application, close FleetOptimizer\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open Scenario"
+    ID_FILE_MRU_FILE2       "Open Scenario"
+    ID_FILE_MRU_FILE3       "Open Scenario"
+    ID_FILE_MRU_FILE4       "Open Scenario"
+    ID_FILE_MRU_FILE5       "Open Scenario"
+    ID_FILE_MRU_FILE6       "Open Scenario"
+    ID_FILE_MRU_FILE7       "Open Scenario"
+    ID_FILE_MRU_FILE8       "Open Scenario"
+    ID_FILE_MRU_FILE9       "Open Scenario"
+    ID_FILE_MRU_FILE10      "Open Scenario"
+    ID_FILE_MRU_FILE11      "Open Scenario"
+    ID_FILE_MRU_FILE12      "Open Scenario"
+    ID_FILE_MRU_FILE13      "Open Scenario"
+    ID_FILE_MRU_FILE14      "Open Scenario"
+    ID_FILE_MRU_FILE15      "Open Scenario"
+    ID_FILE_MRU_FILE16      "Open Scenario"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy to Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut and Copy to Clipboard\nCut and Copy to Clipboard"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Paste Clipboard content\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last operation\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide Toolbar\nShow or hide Toolbar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nShow or hide the status bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_RUN_OPTIMIZER        "Run optimization - All stages\nRun optimization - All stages"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUILD_SCENARIO_SCENARIOWIZARD "Create Scenario\nCreate Scenario"
+END
+
+#endif    // English resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FleetOptimizer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR                  "res\\cursor1.cur"
+
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FleetOptimizer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

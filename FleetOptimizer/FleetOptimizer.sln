@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FleetOptimizer", "FleetOptimizer.vcxproj", "{ADD798F7-E112-422F-9279-6A775DFBA9D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMI", "..\MMI\MMI.vcxproj", "{44840CCA-61B5-4563-99A9-2E1418A0D58C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShipDesignModule", "..\ShipDesignModule\ShipDesignModule.vcxproj", "{674DC70D-FD73-4A94-A526-AB58545CE5B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD798F7-E112-422F-9279-6A775DFBA9D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ADD798F7-E112-422F-9279-6A775DFBA9D1}.Debug|Win32.Build.0 = Debug|Win32
+		{ADD798F7-E112-422F-9279-6A775DFBA9D1}.Release|Win32.ActiveCfg = Release|Win32
+		{ADD798F7-E112-422F-9279-6A775DFBA9D1}.Release|Win32.Build.0 = Release|Win32
+		{44840CCA-61B5-4563-99A9-2E1418A0D58C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44840CCA-61B5-4563-99A9-2E1418A0D58C}.Debug|Win32.Build.0 = Debug|Win32
+		{44840CCA-61B5-4563-99A9-2E1418A0D58C}.Release|Win32.ActiveCfg = Release|Win32
+		{44840CCA-61B5-4563-99A9-2E1418A0D58C}.Release|Win32.Build.0 = Release|Win32
+		{674DC70D-FD73-4A94-A526-AB58545CE5B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{674DC70D-FD73-4A94-A526-AB58545CE5B0}.Debug|Win32.Build.0 = Debug|Win32
+		{674DC70D-FD73-4A94-A526-AB58545CE5B0}.Release|Win32.ActiveCfg = Release|Win32
+		{674DC70D-FD73-4A94-A526-AB58545CE5B0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA5EF432-266A-487C-8EDD-EBF2FDB2FE1B}
+	EndGlobalSection
+EndGlobal

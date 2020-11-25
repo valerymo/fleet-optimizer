@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ADD798F7-E112-422F-9279-6A775DFBA9D1}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>
+    </ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30523.133</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/FleetOptimizer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/FleetOptimizer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug/FleetOptimizer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/FleetOptimizer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/FleetOptimizer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/FleetOptimizer.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/FleetOptimizer.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Release_Libraries\MMI.lib;Release_Libraries\ShipDesignModule.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/FleetOptimizer.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/FleetOptimizer.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/FleetOptimizer.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BasePlan.cpp" />
+    <ClCompile Include="BasePlanSt1LP.cpp" />
+    <ClCompile Include="BasePlanSt2LpDp.cpp" />
+    <ClCompile Include="BasePlanSt3Dp.cpp" />
+    <ClCompile Include="Cargo.cpp" />
+    <ClCompile Include="EasyStartDlg.cpp" />
+    <ClCompile Include="FleetOptimizer.cpp" />
+    <ClCompile Include="FleetOptimizerDoc.cpp" />
+    <ClCompile Include="FleetOptimizerView.cpp" />
+    <ClCompile Include="FleetTechEconomicEng.cpp" />
+    <ClCompile Include="InitialBasePlan.cpp" />
+    <ClCompile Include="LandStructList.cpp" />
+    <ClCompile Include="LandStructure.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MarineTechEconomicEng.cpp" />
+    <ClCompile Include="OptimizationSt1LP.cpp" />
+    <ClCompile Include="OptimizationSt2LpDp.cpp" />
+    <ClCompile Include="OptimizationSt3Dp.cpp" />
+    <ClCompile Include="Optimizer.cpp" />
+    <ClCompile Include="OutputView.cpp" />
+    <ClCompile Include="Port.cpp" />
+    <ClCompile Include="PortFactory.cpp" />
+    <ClCompile Include="PortList.cpp" />
+    <ClCompile Include="PortPoint.cpp" />
+    <ClCompile Include="ProcessDlg.cpp" />
+    <ClCompile Include="RegisterRules.cpp" />
+    <ClCompile Include="Router.cpp" />
+    <ClCompile Include="RouterL.cpp" />
+    <ClCompile Include="RouterP.cpp" />
+    <ClCompile Include="RouterS.cpp" />
+    <ClCompile Include="Scheduler.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="ShipCargoPlan.cpp" />
+    <ClCompile Include="ShipCargoPlanNode.cpp" />
+    <ClCompile Include="ShipFactory.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp" />
+    <ClCompile Include="VehiclesList.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FleetOptimizer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasePlan.h" />
+    <ClInclude Include="BasePlanSt1LP.h" />
+    <ClInclude Include="BasePlanSt2LpDp.h" />
+    <ClInclude Include="BasePlanSt3Dp.h" />
+    <ClInclude Include="Cargo.h" />
+    <ClInclude Include="EasyStartDlg.h" />
+    <ClInclude Include="FleetOptimizer.h" />
+    <ClInclude Include="FleetOptimizerDoc.h" />
+    <ClInclude Include="FleetOptimizerView.h" />
+    <ClInclude Include="FleetTechEconomicEng.h" />
+    <ClInclude Include="InitialBasePlan.h" />
+    <ClInclude Include="LandStructList.h" />
+    <ClInclude Include="LandStructure.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MarineTechEconomicEng.h" />
+    <ClInclude Include="OptimizationSt1LP.h" />
+    <ClInclude Include="OptimizationSt2LpDp.h" />
+    <ClInclude Include="OptimizationSt3Dp.h" />
+    <ClInclude Include="Optimizer.h" />
+    <ClInclude Include="OutputView.h" />
+    <ClInclude Include="Port.h" />
+    <ClInclude Include="PortFactory.h" />
+    <ClInclude Include="PortList.h" />
+    <ClInclude Include="PortPoint.h" />
+    <ClInclude Include="ProcessDlg.h" />
+    <ClInclude Include="RegisterRules.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Router.h" />
+    <ClInclude Include="RouterL.h" />
+    <ClInclude Include="RouterP.h" />
+    <ClInclude Include="RouterS.h" />
+    <ClInclude Include="Scheduler.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="ShipCargoPlan.h" />
+    <ClInclude Include="ShipCargoPlanNode.h" />
+    <ClInclude Include="ShipFactory.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="VehiclesList.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\FleetOptimizer.ico" />
+    <Image Include="res\FleetOptimizerDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\cursor1.cur" />
+    <None Include="res\FleetOptimizer.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MMI\MMI.vcxproj">
+      <Project>{44840cca-61b5-4563-99a9-2e1418a0d58c}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\ShipDesignModule\ShipDesignModule.vcxproj">
+      <Project>{674dc70d-fd73-4a94-a526-ab58545ce5b0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,511 @@
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 19.000000
+TripTimeDays XXX (äíåé): 24.277778
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 1.#INF00
+TripTimeDays XXX (äíåé): 1.#INF00
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+LoadTimeDaysAll!!!: 4.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+LoadTimeDaysAll!!!: 7.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+LoadTimeDaysAll!!!: 10.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+LoadTimeDaysAll!!!: 13.000000
+LoadTimeDays: 1.#INF00
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll!!!: 1.#INF00
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll!!!: 1.#INF00
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 1.#INF00
+TripTimeDays XXX (äíåé): 1.#INF00
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.#INF00
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDaysAll!!!: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDaysAll!!!: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 1.#INF00
+TripTimeDays XXX (äíåé): 1.#INF00
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.#INF00
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDaysAll!!!: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+LoadTimeDaysAll!!!: 1.#INF00
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 1.#INF00
+LoadTimeDaysAll: 1.#INF00
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 1.#INF00
+TripTimeDays XXX (äíåé): 1.#INF00
+
+/////////////////////////////////
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 14.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 14.000000
+LoadTimeDaysAll: 15.000000
+==========================
+LoadTimeDaysAll!!!: 16.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 16.000000
+LoadTimeDaysAll: 17.000000
+==========================
+LoadTimeDaysAll!!!: 18.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 18.000000
+LoadTimeDaysAll: 19.000000
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 19.000000
+TripTimeDays XXX (äíåé): 24.277778
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 14.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 14.000000
+LoadTimeDaysAll: 15.000000
+==========================
+LoadTimeDaysAll!!!: 16.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 16.000000
+LoadTimeDaysAll: 17.000000
+==========================
+LoadTimeDaysAll!!!: 18.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 18.000000
+LoadTimeDaysAll: 19.000000
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 19.000000
+TripTimeDays XXX (äíåé): 24.277778
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 14.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 14.000000
+LoadTimeDaysAll: 15.000000
+==========================
+LoadTimeDaysAll!!!: 16.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 16.000000
+LoadTimeDaysAll: 17.000000
+==========================
+LoadTimeDaysAll!!!: 18.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 18.000000
+LoadTimeDaysAll: 19.000000
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 19.000000
+TripTimeDays XXX (äíåé): 24.277778
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 3.000000
+LoadTimeDaysAll: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDays: 5.850000
+LoadTimeDaysAll: 6.000000
+LoadTimeDaysAll: 11.850000
+==========================
+LoadTimeDaysAll!!!: 12.850000
+==========================
+LoadTimeDays: 6.066667
+LoadTimeDaysAll: 12.850000
+LoadTimeDaysAll: 18.916667
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 18.916668
+LoadTimeDaysAll: 19.916668
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 19.916668
+LoadTimeDaysAll: 20.916668
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 20.916668
+LoadTimeDaysAll: 21.916668
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 21.916668
+LoadTimeDaysAll: 22.916668
+==========================
+Distance XXX (äíåé): 1710
+TripTimeHours XXX (äíåé): 114.000000
+LoadTimeDaysAll XXX (äíåé): 22.916668
+TripTimeDays XXX (äíåé): 27.666668
+************************
+************************
+LoadTimeDaysAll: 1.000000
+LoadTimeDaysPort: 1.000000
+LoadTimeDaysAll: 2.000000
+************************
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 2.000000
+LoadTimeDaysAll: 3.000000
+==========================
+LoadTimeDaysAll!!!: 4.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 4.000000
+LoadTimeDaysAll: 5.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 5.000000
+LoadTimeDaysAll: 6.000000
+==========================
+LoadTimeDaysAll!!!: 7.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 7.000000
+LoadTimeDaysAll: 8.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 8.000000
+LoadTimeDaysAll: 9.000000
+==========================
+LoadTimeDaysAll!!!: 10.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 10.000000
+LoadTimeDaysAll: 11.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 11.000000
+LoadTimeDaysAll: 12.000000
+==========================
+LoadTimeDaysAll!!!: 13.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 13.000000
+LoadTimeDaysAll: 14.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 14.000000
+LoadTimeDaysAll: 15.000000
+==========================
+LoadTimeDaysAll!!!: 16.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 16.000000
+LoadTimeDaysAll: 17.000000
+==========================
+LoadTimeDaysAll!!!: 18.000000
+==========================
+LoadTimeDays: 1.000000
+LoadTimeDaysAll: 18.000000
+LoadTimeDaysAll: 19.000000
+==========================
+==========================
+Distance XXX (äíåé): 3800
+TripTimeHours XXX (äíåé): 126.666667
+LoadTimeDaysAll XXX (äíåé): 19.000000
+TripTimeDays XXX (äíåé): 24.277778
