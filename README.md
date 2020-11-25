@@ -1,7 +1,7 @@
 # fleet-optimizer
 
 Fleet Optimizer it's an application that planned to be used, as part of Desision Support and Making System,
-to help define the optimal structure of specific Marine Fleet, as set of ships for performing required transportation tasks.
+to help define the optimal structure of specific Marine Fleet - set of ships for performing required transportation tasks.
 
 Fleet Optimizer is using Operation Research approaches and methods to find the optimal solution.  
 Ships Routes creation done in Optimization time using Dynamic programming.  
